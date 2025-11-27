@@ -1,1 +1,11 @@
 clients:
+  - clientId: "did:key:zDnaeT3N7TQicj797XxvZtyb8aKrWfArrTjjLnRng6mR1gguX"
+    redirectUris: []
+    scopes: []
+    clientAuthenticationMethods: ["client_secret_jwt"]
+    authorizationGrantTypes: ["client_credentials"]
+    postLogoutRedirectUris: []
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: "https://verifier.dome-marketplace-lcl.org/oidc/did/did:key:zDnaeT3N7TQicj797XxvZtyb8aKrWfArrTjjLnRng6mR1gguX"
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
